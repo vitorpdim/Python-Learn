@@ -9,11 +9,11 @@ nota3 = float(input('Digite a 3st nota: '))
 
 media = nota1 + nota2 + nota3 / 3.0 
 
-if media <= 4:
-    print('Reprovado')
+if media >= 0.0 and media <= 4:
+    print('Reprovado!!!!!!')
 else: 
     if media >= 4 and media <= 6:
-        print('faz exame pae')
-    elif media > 6:
-            print("aprovado")
+        print('\nvai ter que fazer exame pae')
+    else:
+            print("aprovado!!!")
             
